@@ -1,0 +1,64 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Flask Backend",
+      "type": "shell",
+      "command": "pip",
+      "args": [
+        "install",
+        "-r",
+        "backend/requirements.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Flask Backend",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "backend/app.py"
+      ],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$python"],
+      "dependsOn": "Build Flask Backend"
+    },
+    {
+      "label": "Build React Frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "install"
+      ],
+      "cwd": "${workspaceFolder}/frontend",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start React Frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "start"
+      ],
+      "cwd": "${workspaceFolder}/frontend",
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$npm"]
+    }
+  ]
+}

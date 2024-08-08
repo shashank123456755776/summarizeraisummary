@@ -1,0 +1,10 @@
+.file-upload {
+  margin: 20px;
+  text-align: center;
+}
+
+input[type="file"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}

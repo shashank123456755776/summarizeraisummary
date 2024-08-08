@@ -1,0 +1,49 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+ENV/
+venv.bak/
+*.egg-info/
+*.egg
+
+# Dependency directories
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific ignores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.dockerignore
+docker-compose.yml
+
+# Logs
+*.log
+
+# Uploads directory
+uploads/
+
+# React-specific ignores
+node_modules/
+*.log
+build/
+*.env
+*.local
+
+# Miscellaneous
+*.db
+*.sqlite3
