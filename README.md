@@ -141,12 +141,12 @@ License
 
 ### Highlights:
 
-- **Project Structure**: Provides an overview of how your project is organized.
-- **Backend and Frontend Setup Instructions**: Detailed steps for setting up and running both parts of your application.
+- **Project Structure**: Provides an overview of how my project is organized.
+- **Backend and Frontend Setup Instructions**: Detailed steps for setting up and running both parts of my pplication.
 - **File Structure**: Description of the purpose of each file and directory.
 - **Endpoints**: Information on the API endpoints available in the backend.
-- **How to Test**: Guidance on how to run and test your application.
-- **Connecting Frontend and Backend**: Steps to ensure that both parts of your application work together.
+- **How to Test**: Guidance on how to run and test my application.
+- **Connecting Frontend and Backend**: Steps to ensure that both parts of my application work together.
 - **Submission Requirements**: What needs to be included for submission.
 
 
